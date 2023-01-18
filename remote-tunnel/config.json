@@ -1,0 +1,20 @@
+{
+  "name": "Remote Tunnel",
+  "version": "1.0.0",
+  "slug": "remote-tunnel",
+  "description": "Create SSH tunnel to remote server to enable NGINX proxy to the remote Home Assistant",
+  "url": "https://github.com/RoyalHomeAutomations/Addons/blob/main/remote-tunnel",
+  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
+  "startup": "system",
+  "init": false,
+  "boot": "auto",
+  "host_network": true,
+  "options": {
+    "username": "100XX",
+    "privkey": ""
+  },
+  "schema": {
+    "username": "str",
+    "privkey": "str"
+  }
+}
